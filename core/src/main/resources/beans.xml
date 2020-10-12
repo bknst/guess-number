@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="numberGenerator" class="by.bknst.NumberGeneratorImpl"></bean>
+    <bean id="game" class="by.bknst.GameImpl">
+        <property name="numberGenerator" ref="numberGenerator"/>
+    </bean>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"></bean>
+</beans>
