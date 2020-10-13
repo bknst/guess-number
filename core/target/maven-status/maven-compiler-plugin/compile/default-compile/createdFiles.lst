@@ -1,5 +1,7 @@
-by/bknst/Runner.class
-by/bknst/Game.class
-by/bknst/GameImpl.class
-by/bknst/NumberGenerator.class
-by/bknst/NumberGeneratorImpl.class
+by\bknst\MessageGeneratorImpl.class
+by\bknst\NumberGeneratorImpl.class
+by\bknst\Game.class
+by\bknst\MessageGenerator.class
+by\bknst\NumberGenerator.class
+by\bknst\AppConfig.class
+by\bknst\GameImpl.class
