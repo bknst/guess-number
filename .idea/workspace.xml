@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59775c8-a644-4dee-9863-08192d5319d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/console.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/by/bknst/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/by/bknst/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/by/bknst/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/guess-number-game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guess-number-game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/by/bknst/console/ConsoleNumberGuess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/by/bknst/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/bknst/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/bknst/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/by/bknst/console/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/bknst/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/bknst/MessageGeneratorImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +34,7 @@
   <component name="ProjectId" id="1ipWzGUXNXC6tVqwLREGPPicn8M" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -111,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602529292677</updated>
     </task>
+    <task id="LOCAL-00001" summary="annotation config, console module">
+      <created>1602613737769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602613737769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="annotation config, console module" />
+    <option name="LAST_COMMIT_MESSAGE" value="annotation config, console module" />
   </component>
 </project>

@@ -13,7 +13,8 @@ public class GameImpl implements Game{
 
     @Autowired
     private NumberGenerator numberGenerator;
-    private int guessCount;
+
+    private int guessCount = 10;
     private int number;
     private int guess;
     private int smallest;
@@ -78,9 +79,8 @@ public class GameImpl implements Game{
             if(guess < number){
                 smallest = guess + 1;
             }
-
-            remainingGuesses--;
         }
+        remainingGuesses--;
     }
 
     @Override
